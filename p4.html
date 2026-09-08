@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>work8 6/4 15 html layout</title>
+<meta charset="utf-8">
+<style>
+*{
+  box-sizing:border-box;
+}
+.container{
+           width:1024px;
+           margin: 0 auto;
+           box-shadow:0px 4px 8px 0px rgba(0,0,0,.5);
+}
+header{
+        height:200px;
+        background-image:url(images/kwan.jpg);
+        
+}
+nav{
+        float:left;
+        height:600px;
+        background-color:#A06BB0;
+        width:30%;
+        
+}
+article{
+        float:left;
+        height:600px;
+        background-color:#D13D8F; 
+        width:70%;
+        padding-left:20px;
+        
+}
+section::after{
+               clear:both;
+               content:"";
+               display:table;
+}
+
+footer{
+        padding:30px;
+        background-color:pink;
+        text-align:center;
+        
+}
+a:link{
+       color:red;
+       text-decoration:none;
+       background-color:blue;
+       padding:10px;
+       width:100px;
+       display:inline-block;
+}
+a:hover{
+        color:green;
+        background-color:skyblue
+}
+a:active{color:blue}
+a:visited{color:pink}
+</style>
+</head>
+<body>
+<div class="container">
+<header></header>
+<section>
+<nav>
+<ul>
+<li><a href="index.html">คณิตศาสตร์พื้นฐาน</a></li
+<li><a href="p2.html">สถิติศาสตร์</a></li>
+<li><a href="p3.html">ประเภทของข้อมูล</a></li>
+<li><a href="p4.html">สถิติเชิงพรรณนาและสถิติเชิงอนุมาน</a></li>
+<li><a href="p5.html">การวิเคราะห์และนำเสนอข้อมูลเชิงคุณภาพด้วยตารางความถี่</a></li>
+</ul>
+
+</nav>
+<article>
+<center><img src="images/k4.jpg" width="200px"></center>
+<h1>สถิติเชิงพรรณนาและสถิติเชิงอนุมาน</h1>
+<p>สถิติศาสตร์เชิงพรรณนา (Descriptive Statistics) คือ การสรุปและอธิบายลักษณะของข้อมูลที่มีอยู่ โดยใช้ตัวเลขและกราฟิก เพื่อให้เข้าใจข้อมูลได้ง่ายขึ้น ซึ่งแตกต่างจากสถิติศาสตร์เชิงอนุมาน (Inferential Statistics) ที่ใช้ในการสรุปข้อมูลจากกลุ่มตัวอย่างเพื่ออนุมานไปยังประชากรทั้งหมด </p>
+<h2>หน่วยย่อยในเรื่องสถิติเชิงพรรณนาและสถิติเชิงอนุมาน</h2>
+<ul>
+<li>สถิติเชิงพรรณนา เป็นการวิเคราะห์ข้อมูลเพื่ออธิบายลักษณะของชุดข้อมูลที่สนใจ โดยอาจใช้ตัวเลข ตาราง หรือกราฟ เพื่อสรุปข้อมูล เช่น ค่าเฉลี่ย ส่วนเบี่ยงเบนมาตรฐาน หรือการสร้าง แผนภาพการกระจาย</li>
+<li>สถิติเชิงอนุมาน เป็นการวิเคราะห์ข้อมูลเพื่อสรุปหรือคาดการณ์เกี่ยวกับประชากรกลุ่มใหญ่ โดยใช้ข้อมูลจากกลุ่มตัวอย่าง. ตัวอย่างเช่น การทดสอบสมมติฐาน การประมาณค่าพารามิเตอร์ หรือการวิเคราะห์ความถดถอย. </li>
+</ul>
+</article>
+</section>
+<footer>จัดทำโดย: นายธีรภัทร ปักษา<br>ชั้น ม.6/4 เลขที่ 15</footer>
+</div>
+</body>
+</html>
